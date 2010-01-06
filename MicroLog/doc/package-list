@@ -1,0 +1,8 @@
+net.sf.microlog
+net.sf.microlog.appender
+net.sf.microlog.example
+net.sf.microlog.format
+net.sf.microlog.rms
+net.sf.microlog.ui
+net.sf.microlog.util
+net.sf.microlog.util.properties
