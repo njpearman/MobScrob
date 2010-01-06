@@ -1,0 +1,12 @@
+-injars      ..\deployed\Static_MP3_Player.jar
+-outjars     mobscrob.jar
+-libraryjars C:\Development\java\J2ME\WTK2.5.2\lib\midpapi20.jar
+-libraryjars C:\Development\java\J2ME\WTK2.5.2\lib\cldcapi11.jar
+-overloadaggressively
+-repackageclasses ''
+-allowaccessmodification
+-microedition
+-adaptresourcefilecontents
+-printmapping out.map
+
+-keep public class mobscrob.logging.MicroLog,net.sf.microlog.*,net.sf.microlog.appender.*,net.sf.microlog.format.*,net.sf.microlog.util.*,net.sf.microlog.util.properties.*,mobscrob.midlet.MobScroblet

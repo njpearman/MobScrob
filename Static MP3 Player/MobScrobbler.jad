@@ -1,0 +1,7 @@
+MIDlet-1: MobScroblet,,mobscrob.midlet.MobScroblet
+MIDlet-Jar-URL: Static_MP3_Player.jar
+MIDlet-Name: MobScrobbler
+MIDlet-Vendor: mobscrob
+MIDlet-Version: 0.8.57
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
