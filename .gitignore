@@ -1,0 +1,8 @@
+.mtj.tmp/*
+.processed/*
+.settings/*
+bin/*
+.classpath
+.mtj
+.project
+
