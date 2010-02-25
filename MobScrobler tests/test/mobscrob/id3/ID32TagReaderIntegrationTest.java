@@ -22,6 +22,7 @@
  */
 package mobscrob.id3;
 
+import mobscrob.logging.LogFactory;
 import mobscrob.mp3.MP3ResourceStream;
 
 import org.jmock.MockObjectTestCase;
@@ -32,6 +33,7 @@ public class ID32TagReaderIntegrationTest extends MockObjectTestCase {
 	
 	protected void setUp() throws Exception {
 		super.setUp();
+		LogFactory.setImplementation("mobscrob.stubs.StubLogger");
 	}
 
 	public void testRead() throws Exception {

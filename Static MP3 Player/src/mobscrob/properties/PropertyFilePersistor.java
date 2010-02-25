@@ -98,7 +98,7 @@ public class PropertyFilePersistor implements PropertyPersistor {
 					properties.setHashedPassword(kv.value);
 					log.info(methodName, "Loaded hashed password: " + kv.value);
 				} else if (KEY_SCROBBLE_OFFLINE.equals(kv.value)) {
-					properties.setScrobbleOffline("true".equalsIgnoreCase(kv.value));
+					properties.setScrobbleOffline("true".equals(kv.value.toLowerCase()));
 					log.info(methodName, "Loaded export queue: " + kv.value);
 				} else {
 					log.warn(methodName, "Unexpected property: " + kv.key

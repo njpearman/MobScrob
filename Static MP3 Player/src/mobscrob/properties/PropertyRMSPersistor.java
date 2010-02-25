@@ -73,7 +73,7 @@ public class PropertyRMSPersistor implements PropertyPersistor {
 			byte[] password = rs.getRecord(RS_INDEX_PASSWORD);
 			properties.setHashedPassword(getPropertyValue(password, KEY_HASHED_PASSWORD));
 			byte[] exportQueue = rs.getRecord(RS_INDEX_SCROBBLE_OFFLINE);
-			properties.setScrobbleOffline("true".equalsIgnoreCase(getPropertyValue(exportQueue, KEY_SCROBBLE_OFFLINE)));
+			properties.setScrobbleOffline("true".equals(getPropertyValue(exportQueue, KEY_SCROBBLE_OFFLINE).toLowerCase()));
 			
 			log.info(methodName, "Loaded RMS properties: "+properties.getUsername()+", "+properties.getHashedPassword());
 		} catch (RecordStoreFullException e) {
