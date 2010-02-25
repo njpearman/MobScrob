@@ -1,0 +1,13 @@
+MobScrob is a J2ME MP3 player with real-time audioscrobbling capabilities.
+
+I created this application to use on my J2ME mobile phone (a Sony Ericsson W890i) as I listen to music on my mobile a lot and wanted to be able to scrobble tracks that I listened to. I’ve decided to open source the code files as I haven’t had the time to work on it for some time. I’ll be working on improvements, so if there’s anything that you’d like to have a crack at fixing/improving/creating then please get in touch in case it’s something that someone else is working on.
+
+As I have a Sony Ericsson phone, I’ve developed it on top of the Sony Ericsson implementation of J2ME, so it might not work on other platforms. Feel free to try it out but be warned that I can’t guarantee it’s not going to screw up your phone! It might even break other Sony Ericssons to be honest. I just don’t know.
+
+There is a group on last.fm for users of the app. If you’re going to fork the source code, please sign up and keep the group posted with anything that you are planning on doing.
+
+I’d like to point out that the logging framework I’ve used is the MicroLog project for J2ME. I’ve included the source here as I found it easier to work with than a compiled jar file.
+
+Happy scrobbling!
+
+Neill
