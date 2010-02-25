@@ -2,6 +2,7 @@
 .processed/*
 .settings/*
 bin/*
+**/bin/*
 .classpath
 .mtj
 .project
